@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+    }   
+header{
+    height: 60px;
+    background-color: #ffff;
+    display:flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    /*gap: 45rem;*/
+}
+
+header div ul {
+    list-style: none;
+}
+
+header div ul li {
+    display: inline-block;
+    padding-right: 17px;
+}
+header div ul li a{
+    font-size: 17px;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(90deg, #bd1d4bff, #c0465bff, #c39679ff,#B8A889, #a7a57eff, #94966eff, #5e684dff, #464b3aff);
+}
+
+
+
+div#part{
+    /*background-color:  white;
+    box-shadow: -5px 10px 10px gray;
+    /*Inic.Texto>*
+    text-align: center;
+    padding: 25px;
+    font-family:sans-serif;
+    font-size: 20px;
+    /*Fim.Texto<*
+    width: 40%;
+    height: 50px;
+    margin: 150px 250px;*/
+    background-color: #E0104A;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    /*Inic.Texto>*/
+    text-align: center;
+    padding: 25px;
+    font-family:sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    /*Fim.Texto<*/
+    width: 30%;
+    height: 100px;
+    margin: 50px 450px;
+}
+
+
+div#caixa{
+    background-color: rgb(240, 240, 240);
+    box-shadow: -7px -5px 50px #000;
+    width: 60%;
+    height: 350px;
+    margin: -30px 240px;
+    border-radius: 5px;
+    text-align: justify;
+    text-decoration: none;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: right;
+    display: inline-block;
+    padding: 80px;
+    text-align: center;
+    line-height: 40px;
+    font-family: Impact;
+    font-size: 1.5rem;
+    color: #053657;
+
+}
+div#sobre{
+
+    justify-content: space-between;
+    align-items: right;
+    display: inline-block;
+}
+#texsob{
+    background-color: rgb(223, 39, 70);
+    box-shadow: 0 0 10px rgb(41, 40, 40);
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-family:sans-serif;
+    font-size: 1.5rem;
+    margin: 10px 60px;
+    color: #202020;
+}
+
+footer{
+    margin-top: 50px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 19px;
+}
+div#Numero{
+    margin-left: 15px;
+   
+}
+div#dir{
+    align-items: center;
+}
+#pol{
+    text-decoration: none;
+}
+div#contato{
+    margin-right: 15px;
+    
+}

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+    }   
+    header{
+        height: 60px;
+        background-color: #fff;
+        display:flex;
+        align-items: center;
+        padding: 15px;
+        justify-content: space-between;
+        /*gap: 45rem;*/
+    }
+    
+    header div ul {
+        list-style: none;
+    }
+    
+    header div ul li {
+        display: inline-block;
+        padding-right: 17px;
+    }
+    header div ul li a{
+        font-size: 17px;
+        text-decoration: none;
+    }
+    #imgtopo{
+        margin-top: 0px;
+        margin-left: 12px;
+        padding-right: 17px;
+    }
+    #letra{
+        justify-content: space-between;
+        vertical-align: middle 5px;
+    }
+    body{
+        background: linear-gradient(90deg, #8d102eff, #79010dff, #6c0108ff, #850009ff, #6d020eff,#79010dff,#8d102eff);
+    }
+    div#form1{
+        background-color:rgb(240, 239, 239);
+        box-shadow: -5px 10px 10px rgb(41, 40, 40);
+        width: 45%;
+        height: 70px;
+        height: 550px;
+        min-width: 250px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 60px;
+        margin-left: 50px;
+        border-radius: 10px;
+        /*Inic.Texto>*/
+        text-align: left;
+        padding: 25px;
+        font-family:sans-serif;
+        font-size: 1.5rem;
+        /*Fim.Texto<*/
+       
+    }
+    div#form2{
+        background-color:rgb(240, 239, 239);;
+        box-shadow: -5px 10px 10px rgb(41, 40, 40);
+        width: 45%;
+        height: 550px;
+        min-width: 250px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 60px;
+        margin-left: 30px;
+        border-radius: 10px;
+        /*Inic.Texto>*/
+        text-align: left;
+        padding: 25px;
+        font-family:sans-serif;
+        font-size: 1.5rem;
+        /*Fim.Texto<*/
+    }
+    #botão{
+        background-color: rgb(3, 148, 3);
+        color: #323232;
+        border-radius: 10px;
+        margin-left: 74%;
+        margin-top: 74%;
+        text-align: left;
+        padding: 25px;
+        font-family:sans-serif;
+        font-size: 1.5rem;
+
+    }
+    #dowl{
+        margin-left: 76%;
+        margin-top: 74%;
+        text-align: left;
+        padding: 25px;
+    }
+
+    footer{
+        margin-top: 50px;
+        height: 60px;
+        text-align: center;
+        display: flex;
+        background-color: #fff;
+        padding: 20px;
+        justify-content: space-between;
+        font-size: 19px;
+    }
+    div#Numero{
+        margin-left: 15px;
+       
+    }
+    div#dir{
+        align-items: center;
+    }
+    #pol{
+        text-decoration: none;
+    }
+    div#contato{
+        margin-right: 15px;
+        
+    }

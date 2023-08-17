@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+    }
+    
+    
+    header{
+        height: 60px;
+        background-color: white;
+        font-style: italic;
+        display:flex;
+        align-items: center;
+        padding: 15px;
+        justify-content: space-between;
+        /*gap: 45rem;*/
+    }
+    
+    header div ul {
+        list-style: none;
+    }
+    
+    header div ul li {
+        display: inline-block;
+        padding-right: 17px;
+    }
+    header div ul li a{
+        font-size: 17px;
+        text-decoration: none;
+    }
+    #imgtopo{
+        margin-top: 0px;
+        margin-left: 12px;
+        padding-right: 17px;
+    }
+    #letra{
+        justify-content: space-between;
+        vertical-align: middle 5px;
+    }
+    body{
+        background: linear-gradient(90deg, #8d102eff, #79010dff, #6c0108ff, #850009ff, #6d020eff,#79010dff,#8d102eff);
+    }
+    div#caixa{
+        background-color: white;
+        width: 70%;/*largura*/
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 30px;
+        margin-top: 20vh;/*distancia da altura da tela até o começo da conf do login*/
+        border-radius: 15px;/*confi dos cantos da conf*/
+        text-align: justify;
+        line-height: 20px;
+    }
+    div#conta{
+        text-align: center;
+    }
+    div#titulo1{
+        
+        text-align: center;
+        font-size: 3rem;
+        font-family: Helvetica;
+        color: #323232;
+        padding: 25px;
+        margin-top: 35px;
+    }
+    div#resto{
+        padding: 10px;
+        margin-left: 70px;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    
+    div#senha{
+        padding: 10px;
+        margin-left: 70px;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    div#endereço{
+        padding: 10px;
+        margin-left: 70px;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    div#histcomp{
+        padding: 10px;
+        margin-left: 70px;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    div#histform{
+        padding: 10px;
+        margin-left: 70px;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    #botão1{
+        text-align: center;
+     text-transform: uppercase;/*Todas letras maisculas*/
+     font-weight: bold;
+     border: none;
+     height: 40px;
+     width: 60px;
+     border-radius: 20px;
+     margin-top: 30px;
+     margin-left: 403px;
+     color: white;
+     background-color: #085588;
+     cursor: pointer;
+    }
+    #botão2{
+        text-align: center;
+     text-transform: uppercase;/*Todas letras maisculas*/
+     font-weight: bold;
+     border: none;
+     height: 40px;
+     width: 60px;
+     border-radius: 20px;
+     margin-top: 30px;
+     margin-left: 439px;
+     color: white;
+     background-color: #085588;
+     cursor: pointer;
+    }
+    #botão3{
+        text-align: center;
+     text-transform: uppercase;/*Todas letras maisculas*/
+     font-weight: bold;
+     border: none;
+     height: 40px;
+     width: 60px;
+     border-radius: 20px;
+     margin-top: 30px;
+     margin-left: 330px;
+     color: white;
+     background-color: #085588;
+     cursor: pointer;
+    }
+    #botão4{
+        text-align: center;
+     text-transform: uppercase;/*Todas letras maisculas*/
+     font-weight: bold;
+     border: none;
+     height: 40px;
+     width: 60px;
+     border-radius: 20px;
+     margin-top: 30px;
+     margin-left: 397px;
+     color: white;
+     background-color: #085588;
+     cursor: pointer;
+    }
+    #botão5{
+        text-align: center;
+     text-transform: uppercase;/*Todas letras maisculas*/
+     font-weight: bold;
+     border: none;
+     height: 40px;
+     width: 60px;
+     border-radius: 20px;
+     margin-top: 30px;
+     margin-left: 362px;
+     color: white;
+     background-color: #085588;
+     cursor: pointer;
+    }
+    footer{
+        margin-top: 50px;
+        height: 60px;
+        text-align: center;
+        display: flex;
+        background-color: white;
+        font-style: italic;
+        padding: 20px;
+        justify-content: space-between;
+        font-size: 19px;
+    }
+    div#Numero{
+        margin-left: 15px;
+       
+    }
+    div#dir{
+        align-items: center;
+    }
+    #pol{
+        text-decoration: none;
+    }
+    div#contato{
+        margin-right: 15px;
+        
+    }

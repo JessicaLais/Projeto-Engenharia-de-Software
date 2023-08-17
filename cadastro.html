@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<header id="topo">
+    <div>
+        <a href="pgncl.html"><img src="./img/logo.png" width="auto" height="100px"/></a>
+    </div>
+
+    <div>
+        <ul>
+            <li><a href="formatador.html" id="letra">Formatador</a></li>
+            <li><a href="sobre.html" id="letra">Sobre</a></li>
+            <li><a href="planos.html" id="letra">Planos</a></li>
+            <li><a href="login.html" id="letra">Login</a></li>
+            <li><a href="cadastro.html" id="letra">Registrar</a></li>
+            <li><a href="SAC.html"><img src="./img/sinal-de-interrogacao.png" id="imgtopo" height="25px"></a></li>
+        </ul>
+    </div>
+</header>
+
+<body>
+    <div id="Cadastro">
+        <h1>Crie uma conta</h1><br>
+        <h5>Crie uma conta para ter acesso a mais beneficios</h5>
+        <form action="">
+        </form>
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Nome do Usuario" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" required>
+            <label for="email">Repetir Email</label>
+            <input type="email" id="email" placeholder="Repetir Email" required>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Senha" required>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Repetir a senha" required>
+            <div class="flex">
+                <input type="checkbox" id="uso" name="perm" value="termo" required>
+                <label for="uso">Eu li e concordo com os <a href="politica.html" id="pol">Termos de Uso e Política de Privacidade</a></label>
+            </div>
+            <input type="submit" id="Criar" value="Criar">
+        </form>
+        <div id="login-container">
+            <p>Já tem uma conta?</p>
+            <a href="login.html">Entrar</a>
+        </div>
+    </div>
+</body>
+<div>
+    <footer>
+        <div id="Numero">
+            1800 1234 5678
+            </div>
+            <div id="dir">
+                Todos os direitos reservados - <a href="politica.html" id="poli">Política de Privacidade</a>
+            </div>
+            <div id="contato">
+            info@abnt.com
+            </div>
+    </footer>
+</html>
